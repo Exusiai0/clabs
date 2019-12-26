@@ -9,13 +9,13 @@ for(i=1;i<argc;i++,x++)
 {
      a[x]=atof(argv[i]);
 }
-    int i ;
+    int y ;
     int min=a[0];
-     for(i=0;i<argc;i++)
+     for(y=0;y<argc;y++)
      {
-if(a[i]<min){
-min=a[i];
+if(a[y]<min){
+min=a[y];
  }
      }
-printf("%d\n",min);
+printf("The min is%d\n",min);
 }
